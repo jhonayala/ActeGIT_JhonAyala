@@ -6,6 +6,7 @@ public class Metodo {
 		for (int i = 0; i < array.length; i++) {
 			int m=(int)(Math.random()*10+1);
 			array[i]=m;
+			System.out.println(array[i]+" ");
 			
 		}
 	}
